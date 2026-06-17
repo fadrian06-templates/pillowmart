@@ -1,8 +1,10 @@
 {
   "devDependencies": {
-    "@biomejs/biome": "2.5.0"
+    "@biomejs/biome": "2.5.0",
+    "sass": "1.101.0"
   },
   "scripts": {
+    "build": "sass -s compressed sass/style.scss css/style.css",
     "format": "biome format"
   }
 }
