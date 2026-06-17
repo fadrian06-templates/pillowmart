@@ -1,6 +1,14 @@
 {
   "$schema": "node_modules/@biomejs/biome/configuration_schema.json",
   "formatter": {
-    "indentStyle": "space"
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "html": {
+    "formatter": {
+      "bracketSameLine": true,
+      "enabled": true,
+      "selfCloseVoidElements": "always"
+    }
   }
 }
