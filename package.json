@@ -30,8 +30,8 @@
     "build:mixitup": "cp node_modules/mixitup/dist/mixitup.min.js js",
     "build:owl.carousel": "cp node_modules/owl.carousel/dist/assets/{owl.carousel.min.css,owl.video.play.png} css & cp node_modules/owl.carousel/dist/owl.carousel.min.js js",
     "build:rangeslider": "sass -s compressed sass/price_rangs.scss:css/price_rangs.css & cp node_modules/ion-rangeslider/img/sprite-skin-simple.png img",
-    "build:sass": "sass -s compressed sass/style.scss:css/style.css sass/price_rangs.scss:css/price_rangs.css sass/magnific-popup.scss:css/magnific-popup.css",
-    "build:slick": "cp node_modules/slick-carousel/slick/slick.min.js js & cp node_modules/slick-carousel/slick/slick.css css & cp node_modules/slick-carousel/slick/slick-theme.css css/slick-theme.min.css & cp -r node_modules/slick-carousel/slick/fonts css",
+    "build:sass": "sass -s compressed sass/style.scss:css/style.css sass/price_rangs.scss:css/price_rangs.css sass/magnific-popup.scss:css/magnific-popup.css node_modules/slick-carousel/slick/slick.scss:css/slick.css node_modules/slick-carousel/slick/slick-theme.scss:css/slick-theme.min.css",
+    "build:slick": "cp node_modules/slick-carousel/slick/slick.min.js js & cp node_modules/slick-carousel/slick/slick.css css & cp -r node_modules/slick-carousel/slick/fonts css",
     "build:stellar": "cp node_modules/jquery.stellar/jquery.stellar.js js/stellar.js",
     "build:swiper": "cp node_modules/swiper/dist/css/swiper.min.css css & cp node_modules/swiper/dist/js/swiper.min.* js",
     "format": "biome format"
