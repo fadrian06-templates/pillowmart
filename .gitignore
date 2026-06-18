@@ -8,6 +8,7 @@
 /css/price_rangs.*
 /css/slick*
 /css/style.*
+/css/swiper.min.css
 /img/sprite-skin-simple.png
 /js/bootstrap.min.*
 /js/cells-by-column.js
@@ -17,5 +18,6 @@
 /js/price_rangs.js
 /js/slick.min.js
 /js/stellar.js
+/js/swiper.min.*
 /node_modules
 /webfonts
