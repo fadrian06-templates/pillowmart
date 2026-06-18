@@ -1,13 +1,15 @@
 {
   "devDependencies": {
     "@biomejs/biome": "2.5.0",
+    "@fortawesome/fontawesome-free": "5.8.1",
     "bootstrap": "4.3.1",
     "sass": "1.101.0"
   },
   "scripts": {
     "build": "npm run build:sass & npm run build:bootstrap",
     "build:bootstrap": "cp node_modules/bootstrap/dist/css/bootstrap.min.* css & cp node_modules/bootstrap/dist/js/bootstrap.min.* js",
-    "build:sass": "sass -s compressed sass/style.scss css/style.css",
+    "build:fontawesome": "cp node_modules/@fortawesome/fontawesome-free/css/all.min.css css/all.css & cp node_modules/@fortawesome/fontawesome-free/webfonts webfonts",
+    "build:sass": "sass -s compressed sass/style.scss css/style.css & npm run build:fontawesome",
     "format": "biome format"
   }
 }

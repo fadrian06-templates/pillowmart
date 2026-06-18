@@ -1,5 +1,7 @@
 *.sublime-*
+/css/all.css
 /css/bootstrap.min.*
 /css/style.*
 /js/bootstrap.min.*
 /node_modules
+/webfonts
