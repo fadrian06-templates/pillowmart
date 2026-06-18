@@ -8,6 +8,7 @@
 /img/sprite-skin-simple.png
 /js/bootstrap.min.*
 /js/cells-by-column.js
+/js/jquery.easing.min.js
 /js/owl.carousel.min.js
 /js/price_rangs.js
 /node_modules
