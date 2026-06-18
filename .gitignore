@@ -2,9 +2,12 @@
 /css/all.css
 /css/animate.css
 /css/bootstrap.min.*
-/css/owl.carousel.min.css
+/css/owl.*
+/css/price_rangs.*
 /css/style.*
+/img/sprite-skin-simple.png
 /js/bootstrap.min.*
 /js/owl.carousel.min.js
+/js/price_rangs.js
 /node_modules
 /webfonts
