@@ -2,7 +2,9 @@
 /css/all.css
 /css/animate.css
 /css/bootstrap.min.*
+/css/owl.carousel.min.css
 /css/style.*
 /js/bootstrap.min.*
+/js/owl.carousel.min.js
 /node_modules
 /webfonts
