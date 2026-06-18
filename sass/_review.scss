@@ -9,7 +9,7 @@
     margin-top: 0px !important;
 
     @media #{$small_mobile} {
-     overflow: hidden;
+      overflow: hidden;
     }
 
     @media #{$large_mobile} {}
@@ -89,7 +89,7 @@
     border-radius: 100%;
     text-indent: -9999px;
   }
-    
+
   .slick-active button {
     @extend %custom_btn_bg_2;
   }
@@ -99,19 +99,17 @@
 .slider-nav-thumbnails .slick-slide {
   opacity: 0.5;
   margin: 54px 0px 20px;
-  @media #{$small_mobile}{
 
-  }
-  @media #{$large_mobile}{
-  
-  }
-  @media #{$tab_device}{
+  @media #{$small_mobile} {}
+
+  @media #{$large_mobile} {}
+
+  @media #{$tab_device} {
     margin: 54px 40px 20px;
   }
-  @media #{$medium_device}{
-  
-  }
-  
+
+  @media #{$medium_device} {}
+
   img {
     max-width: 100%;
     margin: 0 auto;
