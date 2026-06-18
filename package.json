@@ -22,7 +22,7 @@
     "build:cells-by-column": "cp node_modules/isotope-cells-by-column/cells-by-column.js js",
     "build:fontawesome": "cp node_modules/@fortawesome/fontawesome-free/css/all.min.css css/all.css & cp -r node_modules/@fortawesome/fontawesome-free/webfonts ./",
     "build:jquery.easing": "cp node_modules/jquery.easing/jquery.easing.min.js js",
-    "build:lightslider": "cp node_modules/lightslider/dist/css/lightslider.min.css css & cp node_modules/lightslider/dist/img/controls.png img",
+    "build:lightslider": "cp node_modules/lightslider/dist/css/lightslider.min.css css & cp node_modules/lightslider/dist/img/controls.png img & cp node_modules/lightslider/dist/js/lightslider.min.js js",
     "build:magnific-popup": "cp node_modules/magnific-popup/dist/jquery.magnific-popup.min.js js/jquery.magnific-popup.js",
     "build:owl.carousel": "cp node_modules/owl.carousel/dist/assets/{owl.carousel.min.css,owl.video.play.png} css & cp node_modules/owl.carousel/dist/owl.carousel.min.js js",
     "build:rangeslider": "sass -s compressed sass/price_rangs.scss:css/price_rangs.css & cp node_modules/ion-rangeslider/img/sprite-skin-simple.png img",
