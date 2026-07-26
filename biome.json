@@ -8,6 +8,7 @@
     "formatter": {
       "bracketSameLine": true,
       "enabled": true,
+      "indentScriptAndStyle": true,
       "selfCloseVoidElements": "always"
     }
   }
